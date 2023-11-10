@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    background-color: rgb(243, 236, 236);
+}
+
+.text_box {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.center_buttons {
+    margin:auto;
+    display:block;
+}
+img{
+    border-radius: 30%;
+    box-shadow: 2px 1px 10px rgb(0, 183, 255);
+}
+img:hover{
+    width: 70px;
+    height: 70px;
+    transform: scale(1);
+}
+button{
+    width: 150px;
+}
+button:hover{
+    opacity: 0.1;
+    background-color: aliceblue;
+}
+h3{
+    box-shadow: 2px 1px 10px red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+
+}
